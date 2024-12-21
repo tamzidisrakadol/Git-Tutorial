@@ -1,0 +1,26 @@
+Introduction to git 
+1. To set and get author information to the git 
+    -> git config --global user.name <name>  || (setter)
+    -> git config --global user.email <email>  ||  (setter)
+    -> git config --global user.name / user.email  || (getter)
+
+Git Command 
+2. git init -> To initialize git into the local repo
+3. git add <file name> -> To add the file into staged area
+4. git add -A -> To add all files and folder into staged area
+5. git reset -> To reset all the modification 
+6. git checkout <file-name>  -> undo changes from the last commit
+7. git checkout -f -> undo changes all the files from the last commit
+8. git log -> to see all information about the commit
+9. git log -p -<number> -> to see all the information about the commit from the last n number
+10. git reset --hard -> hard reset all the modification
+11. git rm <file-name>  -> to remove the file if the file is only in the staged area
+12. git rm <file-name> -f -> to remove the file if the file in the unModification area
+13. git rm -r *  -> to remove all the files in the local repository 
+14. .gitignore -> to ignore the files from the git into the repo
+15. git branch -> to see all the branch 
+16. git checkout -b <branch-name>  -> to create a new branch
+17. git checkout <branch-name>  -> switch through branch
+18. git merge <branch-name>  -> to add all the changes from the present branch to the dedicated branch
+19. git remote add origin <repo-link> -> add the path of the github 
+20. git push origin <branch-name>   -> push the local repo to the remote

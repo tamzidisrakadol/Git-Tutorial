@@ -1,0 +1,14 @@
+To add any local repo to remote:
+
+git init 
+git add -A
+git commit -m ""
+git remote add origin <link>
+git push origin <branch-name>
+
+
+To add any changes to the selected date:
+git add -A
+git commit -m ""
+git commit --amend --date=<YYY-MM--DD HH--MM--SS>
+git push origin <branch-name>
