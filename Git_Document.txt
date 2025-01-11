@@ -24,3 +24,11 @@ Git Command
 18. git merge <branch-name>  -> to add all the changes from the present branch to the dedicated branch
 19. git remote add origin <repo-link> -> add the path of the github 
 20. git push origin <branch-name>   -> push the local repo to the remote
+21. git diff --staged -> show the changes of the file between the lateset and the previous commit
+22. git diff <commit-id>..<commit-id> ->  show the changes of the file between the dedicated commit
+23. git stash -> for temporary saving the changes of the files
+24. git stash pop -> pops out all the changes of the files (it doesnot care of the branch)
+25. git stash list -> show the list of temporary saving item
+26. git stash apply stash@{n} -> pops out the dedicated change item
+27. git checkout <commit-id> / <branch-name> -> shift to the dedicated area
+28. git checkout Head~n -> n=4 change the position of the Head
