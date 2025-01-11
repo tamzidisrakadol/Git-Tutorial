@@ -22,13 +22,18 @@ Git Command
 16. git checkout -b <branch-name>  -> to create a new branch
 17. git checkout <branch-name>  -> switch through branch
 18. git merge <branch-name>  -> to add all the changes from the present branch to the dedicated branch
-19. git remote add origin <repo-link> -> add the path of the github 
-20. git push origin <branch-name>   -> push the local repo to the remote
-21. git diff --staged -> show the changes of the file between the lateset and the previous commit
-22. git diff <commit-id>..<commit-id> ->  show the changes of the file between the dedicated commit
-23. git stash -> for temporary saving the changes of the files
-24. git stash pop -> pops out all the changes of the files (it doesnot care of the branch)
-25. git stash list -> show the list of temporary saving item
-26. git stash apply stash@{n} -> pops out the dedicated change item
-27. git checkout <commit-id> / <branch-name> -> shift to the dedicated area
-28. git checkout Head~n -> n=4 change the position of the Head
+19. git remote add <name of the url Ex:origin> <repo-link> -> add the path of the github 
+20. git remote rename <oldName> <newName> -> to change the name of the url.Ex: we can set origin as ADTECH
+21. git remote remove <urlName> -> to remove the remote url 
+22. git push -u origin <branch-name>   -> push the local repo to the remote . We can remove the -u
+23. git diff --staged -> show the changes of the file between the lateset and the previous commit
+24. git diff <commit-id>..<commit-id> ->  show the changes of the file between the dedicated commit
+25. git stash -> for temporary saving the changes of the files
+26. git stash pop -> pops out all the changes of the files (it doesnot care of the branch)
+27. git stash list -> show the list of temporary saving item
+28. git stash apply stash@{n} -> pops out the dedicated change item
+29. git checkout <commit-id> / <branch-name> -> shift to the dedicated area
+30. git checkout Head~n -> n=4 change the position of the Head
+31. git rebase <branchName> -> make the sure the branch should be alternative of the main branch
+32. git rebase continue -> after fixing the conflict 
+33. git rebase abort -> to abort the rebase Command
